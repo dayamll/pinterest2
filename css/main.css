@@ -1,0 +1,186 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Source Sans Pro',sans-serif;
+  margin: auto;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  /*border-bottom: 1px solid #EFEFEF;*/
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.fa .fa-search {
+  position: relative;
+  top: 2px;
+}
+
+.pinterest {
+  display: flex;
+  align-items: center;
+	justify-content: center;
+}
+
+.pinterest li {
+  font-weight: 600;
+}
+
+.pinterest_menu {
+  border-bottom: 1px solid #EEEEEF;
+  padding: 10px 0;
+}
+.pinterest__actions {
+  display: flex;
+  justify-content: space-between;
+  color: #B5B5B5;
+  width: 93px;
+}
+
+.pinterest__search {
+  width: 78%;
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  /*outline: 1px solid;*/
+  margin: 0 16px;
+}
+
+.pinterest__search i {
+  margin: 0 10px;
+}
+
+.pinterest__brand i.fa{
+  color: #BD081C;
+  font-size: 30px;
+
+}
+
+.pinterest__brand li {
+  margin-left: 0;
+}
+
+.pinterest input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 0px;
+  width: 100%;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.box {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  padding: 10px;
+}
+
+.pinterest__actions i.fa {
+  font-size: 21px;
+}
+
+.pinterest_submenu {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.pinterest_submenu div {
+  padding: 15px 20px;
+  font-weight: 700;
+  border-radius: 6px;
+  background-color: pink;
+  color: white;
+}
+
+.pinterest_submenu div:first-child {
+  background-color: #725F4E;
+}
+
+.pinterest_submenu div:nth-child(2) {
+  background-color: #AB8B6F;
+}
+
+.pinterest_submenu div:nth-child(3) {
+  background-color: #8C7863;
+}
+
+.pinterest_submenu div:nth-child(4) {
+  background-color: #8D6D51;
+}
+
+.pinterest_submenu div:nth-child(4) {
+  background-color: #927256;
+}
+
+.pinterest_submenu div:nth-child(5) {
+  background-color: #9D964D;
+}
+
+.pinterest_submenu div:nth-child(6) {
+  background-color: #82745C;
+}
+
+.pinterest_submenu div:nth-child(7) {
+  background-color: #8C8484;
+}
+
+.pinterest_submenu div:nth-child(8) {
+  background-color: #9B765B;
+}
+
+.pinterest_submenu div:nth-child(9) {
+  background-color: #B28176;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 150px;
+  padding: 0 80px;
+}
+
+main section {
+  width: 24%;
+  border-radius: 5px;
+  height: 100%;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.author {
+  display: flex;
+  margin-top: 10px;
+}
+
+.image ~ h4 {
+  margin: 10px 0;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.views i {
+  margin-right: 1px;
+}
